@@ -1,0 +1,25 @@
+{
+  "name": "fuzzy-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fast-levenshtein": "^3.0.0",
+    "jaro-winkler": "^0.2.8",
+    "natural": "^8.0.1",
+    "perf_hooks": "^0.0.1",
+    "string-similarity": "^4.0.4"
+  },
+  "devDependencies": {
+    "@types/fast-levenshtein": "^0.0.4",
+    "@types/string-similarity": "^4.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
